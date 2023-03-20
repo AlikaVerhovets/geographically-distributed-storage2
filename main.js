@@ -89,7 +89,7 @@ const europeCoordinates = { //Prague
         top: '36%'
     },
     smartphone: {
-        left: '51.5%',
+        left: '53%',
         top: '32%'
     },
     phone: {
@@ -864,7 +864,7 @@ Element.prototype.drawServerChoose = function(region) {
             setTimeout(() => {
                 $('.my__data__region').last().css('opacity', '1');
             }, 100);
-            $('#text').html('<p>Chooseminimum two additional spots for ByteCloud and press <span class="button__start__check blocked">Start</span></p>');
+            $('#text').html('<p>Choose minimum two additional spots for ByteCloud and press <span class="button__start__check blocked">Start</span></p>');
           } else {
             const regionObj = {
                 regionName: `${region.regionName}`,
@@ -894,10 +894,10 @@ Element.prototype.drawServerChoose = function(region) {
                                 setTimeout(() => {
                                     $('.results__container').css({
                                         'z-index':3,
-                                        'display':'grid'});
+                                        'display':'flex'});
                                     drawAllResults (byteCloudResults.regions, "result__container__byteCloud");
                                     drawAllResults (objectStorageResult.regions, "result__container__objectStorage");
-                                    $('#text').html('<p>Do you Want to <a href="">start again?</a></p>');
+                                    $('#text').html('<p>Do you want to <a href="">start again?</a></p>');
                                 }, 1500);
                             });
                         }, 3000);
@@ -913,10 +913,10 @@ Element.prototype.drawServerChoose = function(region) {
                             setTimeout(() => {
                                 $('.results__container').css({
                                     'z-index':3,
-                                    'display':'grid'});
+                                    'display':'flex'});
                                 drawAllResults (byteCloudResults.regions, "result__container__byteCloud");
                                 drawAllResults (objectStorageResult.regions, "result__container__objectStorage");
-                                $('#text').html('<p>Do you Want to <a href="">start again?</a></p>');
+                                $('#text').html('<p>Do you want to <a href="">start again?</a></p>');
                             }, 1500);
                         });
                     }, 3000);
