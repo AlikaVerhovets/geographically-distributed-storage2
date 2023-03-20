@@ -5,12 +5,12 @@ const northAmericaCoordinates = // Denver
         top: '42%'
     },
     laptop: {
-        left: '15%',
-        top: '32%'
+        left: '14%',
+        top: '31%'
     },
     smartphone: {
-        left: '19%',
-        top: '39%'
+        left: '18.5%',
+        top: '38.5%'
     },
     phone: {
         left: '23.5%',
@@ -49,8 +49,8 @@ const southAmericaCoordinates = { //Brasilia
         top: '62%'
     },
     smartphone: {
-        left: '32%',
-        top: '67.5%'
+        left: '31.5%',
+        top: '67%'
     },
     phone: {
         left: '29%',
@@ -89,8 +89,8 @@ const europeCoordinates = { //Prague
         top: '36%'
     },
     smartphone: {
-        left: '53%',
-        top: '32%'
+        left: '52%',
+        top: '31%'
     },
     phone: {
         left: '58%',
@@ -165,8 +165,8 @@ const oceaniaCoordinates = { //Sydney
         top: '82%'
     },
     laptop: {
-        left: '79%',
-        top: '75%'
+        left: '78%',
+        top: '74%'
     },
     smartphone: {
         left: '83%',

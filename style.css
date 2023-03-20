@@ -116,7 +116,7 @@ main {
 .tech__phone {
     position: absolute;
     width: 100%;
-    max-width: 2.5vw;
+    max-width: 2vw;
     opacity: 0;
     transition: all 1s;
 }
@@ -181,9 +181,13 @@ main {
 .my__data__region {
     position: absolute;
     width: 100%;
-    max-width: 4vw;
+    max-width: 3.3vw;
     opacity: 0;
     transition: all 1s;
+}
+
+.my__data__region.germanyServer {
+    margin-left: -22px;
 }
 
 .additional__data__region {
